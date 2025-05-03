@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epixelab Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="site-body">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 custom-navbar sticky-top">
+        <div class="container custom-navbar-container d-flex align-items-center">
+
+            <a class="navbar-brand custom-navbar-brand" href="#">
+                <img src="./img/Logo.png" alt="Epixelab" class="custom-navbar-logo">
+            </a>
+
+            <div id="navCenter" class="collapse navbar-collapse custom-navbar-center">
+                <ul class="navbar-nav flex-column flex-lg-row custom-navbar-menu">
+                    <li class="nav-item"><a class="nav-link custom-navbar-link-1" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link custom-navbar-link-2" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link custom-navbar-link-2" href="#app">Our App</a></li>
+                    <li class="nav-item"><a class="nav-link custom-navbar-link-2" href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <div id="navRight" class="collapse navbar-collapse custom-navbar-right ms-lg-auto">
+                <button class="btn btn-primary custom-navbar-login me-2">Log in</button>
+                <button class="btn btn-primary custom-navbar-signup">Sign up</button>
+            </div>
+
+            <!-- Toggler on right corner -->
+            <button class="navbar-toggler ms-auto order-last" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navCenter, #navRight" aria-controls="navCenter navRight" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container custom-hero-container">
+            <div class="row align-items-center custom-hero-row">
+                <div class="col-md-6 custom-hero-text">
+                    <h1 class="custom-hero-title">We boost<br>growth for your<br>startup business</h1>
+                    <p class="lead custom-hero-subtitle">
+                        Our goal is top at the heart of creativity services industry as a digital creator. In has after
+                        comment.
+                    </p>
+                    <div class="custom-hero-buttons">
+                        <span><button class="btn btn-orange me-2 custom-getstarted-btn">Get
+                                Started</button></span>
+                        <span><button class="btn custom-learnmore-btn"><img src="./img/Learn More icon.png" alt=""><span
+                                    class="m-1">Learn
+                                    More</span></button></span>
+                    </div>
+                </div>
+                <div class="col-md-6 custom-hero-image-col">
+                    <img src="./img/heroimg.jpeg" alt="Hero Image" class="img-fluid custom-hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services-section py-5">
+        <div class="container custom-services-container">
+            <p class="text-center custom-service">SERVICE</p>
+            <h2 class="services-title text-center pb-1 custom-services-title">Our Vision & Our Goal</h2>
+            <div class="row g-4 custom-services-row">
+                <div class="col-md-4">
+                    <div class="card service-card p-4 custom-service-card scard-1">
+                        <img src="./img/vector.svg" alt="Graphic Design" class="custom-service-icon mb-3">
+                        <h5 class="card-title custom-service-card-title">Graphic Design</h5>
+                        <p class="card-text custom-service-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Quisque dui mi, bibendum eu erat at, convallis tincidunt nulla.</p>
+                        <button class="btn btn-orange custom-service-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 custom-service-card scard-1">
+                        <img src="./img/Video.svg" alt="Video Editing" class="custom-service-icon mb-3">
+                        <h5 class="card-title custom-service-card-title">Video Editing</h5>
+                        <p class="card-text custom-service-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Quisque dui mi, bibendum eu erat at, convallis tincidunt nulla.</p>
+                        <button class="btn btn-orange custom-service-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 custom-service-card scard-1">
+                        <img src="./img/vector1.svg" alt="Digital Marketing" class="custom-service-icon mb-3">
+                        <h5 class="card-title custom-service-card-title">Digital Marketing</h5>
+                        <p class="card-text custom-service-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Quisque dui mi, bibendum eu erat at, convallis tincidunt nulla.</p>
+                        <button class="btn btn-orange custom-service-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section -->
+    <section class="feature-section py-5">
+        <div class="container custom-feature-container">
+            <div class="row custom-feature-row">
+                <div class="col-md-6 custom-feature-text-col">
+                    <h2 class="custom-feature-title">Many Blocks and <br>Components</h2>
+                    <p class="custom-feature-desc">
+                        Startup Framework contains components <br> and complex blocks which can easily be <br>
+                        integrated into
+                        almost any design.
+                    </p>
+                    <button class="btn btn-outline-secondary custom-explore-btn">Explore</button>
+                </div>
+                <div class="col-md-6 custom-feature-img-col">
+                    <img src="./img/mask.png" alt="Feature Image" class="img-fluid rounded custom-feature-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container custom-testimonials-container text-center">
+            <div class="section-header mb-4 custom-testimonials-header">
+                <h6 class="text-muted custom-testimonials-label">TESTIMONIALS</h6>
+                <h2 class="custom-testimonials-title">What Clients say about us</h2>
+            </div>
+            <div class="row custom-testimonials-row">
+                <div class="col-md-6 text-start custom-testimonial-col">
+                    <blockquote class="blockquote d-flex flex-nowrap align-items-start custom-testimonial-block">
+                        <img src="./img/Userpic.png" alt="" class="flex-shrink-0 me-3" style="width:80px; height:auto;">
+                        <div>
+                            <p class="custom-testimonial-text">
+                                Get a fully retina ready site when
+                                you build with Startup Framework.Websites look sharper
+                                and more gorgeous on <br> devices with retina display support.
+                            </p>
+                            <h6 class="custom-testimonial-cient text-muted">RAYHAN CURRAN</h6>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 text-start custom-testimonial-col">
+                    <blockquote class="blockquote d-flex flex-nowrap align-items-start custom-testimonial-block">
+                        <img src="./img/Userpic2.png" alt="" class="flex-shrink-0 me-3"
+                            style="width:80px; height:auto;">
+                        <div>
+                            <p class="custom-testimonial-text">
+                                As a business targeting high net worth individuals, we were looking for a slick, cool
+                                and mini-malistic design for our website
+                            </p>
+                            <h6 class="custom-testimonial-cient text-muted">KAYLEY FRAME</h6>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 text-start custom-testimonial-col">
+                    <blockquote class="blockquote d-flex flex-nowrap align-items-start custom-testimonial-block">
+                        <img src="./img/Userpic3.png" alt="" class="flex-shrink-0 me-3"
+                            style="width:80px; height:auto;">
+                        <div>
+                            <p class="custom-testimonial-text">
+                                The most important part of the Startup Framework is the samples
+                            </p>
+                            <h6 class="custom-testimonial-cient text-muted">GENE WHITFIELD</h6>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 text-start custom-testimonial-col">
+                    <blockquote class="blockquote d-flex flex-nowrap align-items-start custom-testimonial-block">
+                        <img src="./img/Userpic4.png" alt="" class="flex-shrink-0 me-3"
+                            style="width:80px; height:auto;">
+                        <div>
+                            <p class="custom-testimonial-text">
+                                I’ve built my website with Startup just in one day, and it was ready-to-go.
+                            </p>
+                            <h6 class="custom-testimonial-cient text-muted">ALLAN KIM</h6>
+                        </div>
+                    </blockquote>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Team section  -->
+    <section class="custom-team-section py-5">
+        <div class="container text-center">
+            <p class="text-lead">OUR TEAM</p>
+            <h2 class="text-heading">Meet The Team</h2>
+            <div class="team-wrap">
+                <div class="team-card">
+                    <img src="./img/Mask1.png" alt="">
+                    <p class="member-name">Vanessa Laird</p>
+                    <p class="member-role">UI Designer</p>
+                    <div class="team-social-group muted">
+                        <div class="team-social"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-dribbble"></i></a></div>
+                    </div>
+
+                </div>
+                <div class="team-card">
+                    <img src="./img/Mask2.png" alt="">
+                    <p class="member-name">Mason Campbell</p>
+                    <p class="member-role">UI Designer</p>
+                    <div class="team-social-group muted">
+                        <div class="team-social"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-dribbble"></i></a></div>
+                    </div>
+
+                </div>
+                <div class="team-card">
+                    <img src="./img/Mask3.png" alt="">
+                    <p class="member-name">Irea Evans</p>
+                    <p class="member-role">Client Manager</p>
+                    <div class="team-social-group">
+                        <div class="team-social"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                        <div class="team-social"><a href="#"><i class="fab fa-dribbble"></i></a></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5 bg-light custom-newsletter-section">
+        <div class="container custom-newsletter-container">
+            <h6 class="text-muted custom-newsletter-label">OUR TEAM</h6>
+            <h2 class="custom-newsletter-title">Subscribe Our Newsletter</h2>
+            <div class="row align-items-center custom-newsletter-row">
+                <div class="col-md-5 custom-newsletter-img-col py-5">
+                    <img src="./img/Frame.png" alt="Newsletter" class="img-fluid newsletter-img custom-newsletter-img">
+                </div>
+                <div class="col-md-7 custom-newsletter-text-col">
+                    <p class="custom-newsletter-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                        dui mi, bibendum eu erat at, convallis tincidunt nulla.</p>
+                    <div>
+                        <form class="newsletter-form d-flex mt-4 custom-newsletter-form">
+                            <input type="email" class="form-control me-2 newsletter-input custom-newsletter-input"
+                                placeholder="Your E-mail here...">
+                    </div>
+                    <div class="d-grid gap-2 custom-n-button">
+                        <button type=" submit" class="btn btn-primary custom-newsletter-btn">Subscribe Our
+                            Newsletter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white py-4 footer-section custom-footer-section">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center custom-footer-container">
+                <div class="footer-logo custom-footer-logo">
+                    <img src="./img/Logo.png" alt="Epixelab" height="24">
+                </div>
+                <div class="text-muted custom-footer-copy">© 2025 Epixelab. All rights reserved.</div>
+                <div class="footer-nav custom-footer-nav">
+                    <a href="#" class="me-3 custom-footer-link">Portfolio</a>
+                    <a href="#" class="me-3 custom-footer-link">How it Works</a>
+                    <a href="#" class="me-3 custom-footer-link">Pricing</a>
+                    <a href="#" class="me-3 custom-footer-link">About</a>
+                    <a href="#" class="custom-footer-link">Login</a>
+                </div>
+            </div>
+            <div class="footer-bottom mt-4 text-center text-muted custom-footer-bottom">
+
+                <hr>
+
+                Startup Framework contains components and complex blocks which can easily be integrated into almost any
+                design.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
